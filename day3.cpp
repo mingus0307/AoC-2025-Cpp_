@@ -32,7 +32,7 @@ int main(void){
         char second = '1'; 
         for (int i = pos+1; i < line.length(); i++){
             if (second < line[i]){
-                second = line[i]; 
+                second = line[i];
             }
         } 
         
